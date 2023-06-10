@@ -18,7 +18,6 @@ export const Calculator = () => {
     } else {
       let newValue1 = e.currentTarget.value;
       setNumValue1(numValue1 + newValue1);
-      
     }
   };
 
@@ -43,7 +42,6 @@ export const Calculator = () => {
   const handleValueSign = (e) => {
     e.preventDefault();
     let valueSign = e.currentTarget.value;
-    console.log(valueSign);
     setSign(valueSign);
   };
   const handleValueSignDel = (e) => {
